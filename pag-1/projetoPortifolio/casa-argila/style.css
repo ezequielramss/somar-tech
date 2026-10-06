@@ -1,0 +1,13 @@
+﻿body {
+  --accent: #9b6246;
+  --soft: #e8ddd1;
+  --section-bg: #e8ddd1;
+  --art-bg: #d8c5b0;
+  --art-ink: #9b6246;
+  --highlight: #d3ad86;
+  --map-bg: #e8ddd1;
+}
+
+.art-title{
+  color: var(--art-ink);
+}
