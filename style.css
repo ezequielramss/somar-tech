@@ -35,7 +35,7 @@ button:focus-visible {
   margin-inline: auto;
 }
 .site-header {
-  height: 82px;
+  height: 132px;
   width: min(1320px, calc(100% - 96px));
   margin: auto;
   display: flex;
@@ -46,10 +46,16 @@ button:focus-visible {
 .brand {
   display: inline-flex;
   align-items: center;
-  gap: 10px;
   font-weight: 700;
   font-size: 14px;
   letter-spacing: -0.04em;
+}
+.brand img {
+  display: block;
+  width: 464px;
+  height: 132px;
+  object-fit: cover;
+  object-position: center;
 }
 .brand-mark {
   display: grid;
@@ -964,7 +970,16 @@ button:focus-visible {
     width: calc(100% - 48px);
   }
   .site-header {
-    height: 70px;
+    height: 100px;
+    gap: 16px;
+  }
+  .brand img {
+    width: min(38vw, 320px);
+    height: 90px;
+  }
+  .header-cta {
+    flex: 0 0 auto;
+    font-size: 11px;
   }
   .main-nav {
     gap: 16px;
@@ -1023,10 +1038,15 @@ button:focus-visible {
     width: calc(100% - 40px);
   }
   .site-header {
-    height: 66px;
+    height: 78px;
+    gap: 10px;
   }
   .brand {
     font-size: 12px;
+  }
+  .brand img {
+    width: min(52vw, 220px);
+    height: 64px;
   }
   .brand-mark {
     width: 27px;
@@ -1036,7 +1056,8 @@ button:focus-visible {
     display: none;
   }
   .header-cta {
-    font-size: 10px;
+    font-size: 9px;
+    white-space: nowrap;
   }
   .hero {
     display: flex;
